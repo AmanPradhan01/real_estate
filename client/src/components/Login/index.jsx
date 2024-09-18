@@ -18,7 +18,7 @@ const Login = () => {
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			function myFunc() {
-				window.location.href = "https://amanpradhan01.github.io/real_estate/index.html";
+				window.location.href = "https://amanpradhan01.github.io/Luxury-Estates/";
 			}
 	myFunc();
 		} catch (error) {
